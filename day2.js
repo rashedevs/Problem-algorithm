@@ -1,8 +1,10 @@
 function sumOfTwo(param1, param2) {
   return param1 + param2;
 }
-// let ans = sumOfTwo(1, 2);
-// console.log(ans);
+let ans = sumOfTwo(1, 2);
+console.log(ans);
+
+// ................
 
 function sumOfAll(...params) {
   let total = 0;
